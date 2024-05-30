@@ -1,0 +1,85 @@
+.clients{
+    background-color: rgb(47, 45, 45);
+    padding-top: 100px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.happy{
+    display: flex;
+}
+.happy h2{
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.matter{
+    width: 70%;
+}
+.matter p{
+    padding-bottom: 5px;
+    color:#000;
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #fff;
+    padding: 30px;
+   
+    text-align: left;
+}
+
+.name h4{
+    font-family: "Rubik", sans-serif ;
+    color: #fff;
+    font-weight: 400;
+}
+
+.name span{
+    font-family: "Raleway", sans-serif;
+    color: rgb(166, 164, 164);
+    font-size: 15px;
+}
+
+.clients ul{
+    list-style: none;
+    display: flex;
+    width: 150%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.clients ul li{
+    margin-right: 1px;
+    
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.btns{
+    margin-left: 50%;
+    margin-top: 100px;
+    
+}
+
+.btns img{
+    background-color: rgb(143, 134, 92);
+    padding: 10px;
+   margin-right: 8px;
+   width: 40px;
+   border-radius: 5px;
+   cursor: pointer;
+   transform: translateY(-50%);
+}
+
+.btn1:hover , .btn2:hover{
+    background-color: rgb(169, 160, 121);
+    
+}

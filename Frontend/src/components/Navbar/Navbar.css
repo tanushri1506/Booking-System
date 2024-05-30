@@ -1,0 +1,46 @@
+nav{
+    /* background:rgba(238, 130, 238, 0.534); */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 20px 0;
+   position: fixed;  
+   width: 100%;
+   top: 0;
+   left: 0;
+   /* z-index: 10; */
+   
+}
+
+.logo{
+    padding-left: 20px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo h1{
+    font-weight: 700;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+}
+
+nav ul li{
+    margin-right: 30px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: rgb(8, 8, 8);
+}
+
+.dark-nav{
+    background: rgb(136, 135, 135);
+    transition: 0.1s;
+}

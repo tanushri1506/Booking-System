@@ -1,0 +1,59 @@
+.practise2{
+    background-color:rgb(56, 56, 56);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.columns{
+    display: flex;
+
+}
+
+.prachead{
+    font-size: 50px;
+    color: white;
+    font-family: "Hind", sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.text-col p{
+    font-size: 15px;
+    color: white;
+}
+
+.columns .col-2,.columns .col-3{
+    width: 35%;
+    margin-right: 10%;
+}
+.col-2{
+    margin-left: 10%;
+}
+.practise2 ul{
+    list-style: none;
+}
+
+.icon-img{
+    width: 60px;
+    padding:12px;
+    background: rgb(112, 110, 110);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.practise2 ul li{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.practise2 h4,.text-col p{
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+}
+
+.practise2 h4{
+    padding-bottom: 5px;
+    color: rgb(143, 134, 92);
+}
+

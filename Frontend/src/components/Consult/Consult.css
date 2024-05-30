@@ -1,0 +1,30 @@
+.consult{
+    background: rgb(56, 56, 56);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.consult-box{
+    background: linear-gradient(rgba(128, 128, 131, 0.7),rgba(77, 77, 78, 0.7)),url('../../assets/businesswoman-satisfied-with-her.jpg');
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 120px;
+    border-radius: 10px;
+}
+
+
+.consult-box h3{
+    padding-top: 150px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.consult-box button{
+    margin-top: 50px;
+    margin-left: 45%;
+}

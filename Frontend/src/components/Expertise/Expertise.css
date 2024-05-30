@@ -1,0 +1,61 @@
+.expertise{
+    background: rgb(56, 56, 56);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.etext h4{
+    color: rgb(143, 134, 92);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.etext p{
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: rgb(116, 111, 111);
+}
+.etext span{
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+}
+
+.etext span:hover{
+    color: rgb(143, 134, 92);
+}
+
+.etext img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.etext span:hover img{
+    background-color: rgb(143, 134, 92);
+    padding: 2px;
+    
+}
+
+.eicon-img{
+    width: 60px;
+    padding:12px;
+    background: rgb(143, 134, 92);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.cards ul{
+    list-style: none;
+    display: flex;
+}
+
+.cards ul li{
+    background: #fff;
+    padding: 30px;
+    margin-right: 40px;
+    line-height: 1.5;
+    width: 400px;
+    border-radius: 15px;
+}

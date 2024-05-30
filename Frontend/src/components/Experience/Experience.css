@@ -1,0 +1,61 @@
+.experience{
+    background-color:rgb(56, 56, 56);
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.ecol-1{
+    width: 30%;
+    line-height: 1.2;
+}
+
+.counter{
+    display: flex;
+}
+
+.counter p{
+    color: rgb(143, 134, 92);
+    font-size: 90px;
+    margin-right: 5px;
+    font-family: "Rubik", sans-serif ;
+    font-weight: 300;
+}
+
+.counter span{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.plus{
+    color: #fff;
+}
+
+.text-part h4{
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.text-part p{
+    padding-bottom: 5px;
+    color: rgb(166, 164, 164);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.ecol-2 ul , .ecol-3 ul{
+    list-style: none;
+}
+
+.ecol-2{
+    width: 20%;
+    margin-left: 120px;
+}
+
+.ecol-3{
+    width: 20%;
+    margin-left: 150px;
+}
