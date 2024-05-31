@@ -2,6 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import JusticeModel from './models/Justice.js'
+const port = process.env.PORT || 3001;
 
 
 const app=express()
@@ -36,6 +37,6 @@ app.post('/appointment',async(req,res)=>{
 
 })
 
-app.listen(3001,()=>{
-    console.log("Server is running")
+app.listen(port,()=>{
+    console.log(`Server is running on ${port}`)
 })
