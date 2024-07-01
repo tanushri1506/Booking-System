@@ -16,7 +16,7 @@ const Free = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/appointment ", { name, email, number })
+      .post("https://booking-system-5tq1.onrender.com/appointment ", { name, email, number })
       .then((result) => {
         console.log(result);
         setShowModal(true);
